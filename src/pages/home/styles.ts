@@ -33,3 +33,11 @@ export const Preview = styled('div', {
     display: 'none',
   },
 });
+
+export const FormAnnotation = styled('div', {
+  marginTop: '$2',
+
+  [`> ${Text}`]: {
+    color: '$gray400',
+  },
+});
